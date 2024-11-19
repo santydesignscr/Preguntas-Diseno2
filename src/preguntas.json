@@ -2,1051 +2,582 @@
   {
     "id": 1,
     "category": "Patrones de Diseño",
-    "question": "¿Qué son los patrones de diseño?",
-    "options": ["Soluciones a problemas específicos en hardware", "Soluciones comprobadas para problemas comunes en desarrollo de software", "Métodos para reducir el código en un proyecto"],
-    "correctAnswer": "Soluciones comprobadas para problemas comunes en desarrollo de software"
+    "question": "¿Qué son los patrones de diseño en el desarrollo de software?",
+    "options": ["Soluciones comprobadas para problemas comunes en el desarrollo de software.", "Herramientas para la gestión de proyectos de software.", "Métodos para la depuración de errores en el código."],
+    "correctAnswer": "Soluciones comprobadas para problemas comunes en el desarrollo de software."
   },
   {
     "id": 2,
     "category": "Patrones de Diseño",
-    "question": "¿Cuál de los siguientes es un ejemplo de patrón creacional?",
-    "options": ["Decorator", "Singleton", "Observer"],
-    "correctAnswer": "Singleton"
+    "question": "¿Cuál es la importancia de tener un nombre claro y conciso para un patrón de diseño?",
+    "options": ["Facilita la identificación y búsqueda de información sobre el patrón.", "Aumenta la complejidad del patrón.", "Reduce la necesidad de documentación."],
+    "correctAnswer": "Facilita la identificación y búsqueda de información sobre el patrón."
   },
   {
     "id": 3,
     "category": "Patrones de Diseño",
-    "question": "¿Qué patrón asegura que solo exista una instancia de una clase en el sistema?",
-    "options": ["Adaptador", "Singleton", "Strategy"],
-    "correctAnswer": "Singleton"
+    "question": "¿Cuáles son los elementos esenciales de un patrón de diseño?",
+    "options": ["Nombre, Área problemática, Solución, Consecuencias", "Nombre, Implementación, Solución, Consecuencias", "Nombre, Área problemática, Diseño, Consecuencias"],
+    "correctAnswer": "Nombre, Área problemática, Solución, Consecuencias"
   },
   {
     "id": 4,
     "category": "Patrones de Diseño",
-    "question": "¿Cuál es el propósito principal del patrón Factory Method?",
-    "options": ["Permitir que las subclases decidan qué clase instanciar", "Crear adaptaciones entre interfaces incompatibles", "Notificar cambios a otros objetos automáticamente"],
-    "correctAnswer": "Permitir que las subclases decidan qué clase instanciar"
+    "question": "¿Cuál es el enfoque principal de los patrones estructurales?",
+    "options": ["La creación de objetos y el control de nuevas instancias.", "La composición de clases y objetos para crear estructuras más complejas.", "La interacción y comunicación entre objetos."],
+    "correctAnswer": "La composición de clases y objetos para crear estructuras más complejas."
   },
   {
     "id": 5,
     "category": "Patrones de Diseño",
-    "question": "¿Qué patrón permite agregar funcionalidades adicionales a un objeto sin modificar su estructura básica?",
-    "options": ["Decorator", "Singleton", "Observer"],
-    "correctAnswer": "Decorator"
+    "question": "¿Cuál es el enfoque principal de los patrones creacionales?",
+    "options": ["La creación de objetos y el control de nuevas instancias.", "La composición de clases y objetos para crear estructuras más complejas.", "La interacción y comunicación entre objetos."],
+    "correctAnswer": "La creación de objetos y el control de nuevas instancias."
   },
   {
     "id": 6,
     "category": "Patrones de Diseño",
-    "question": "¿Qué patrón permite que un objeto notifique a otros objetos cuando su estado cambia?",
-    "options": ["Factory Method", "Observer", "Adaptador"],
-    "correctAnswer": "Observer"
+    "question": "¿Cuál es el enfoque principal de los patrones de comportamiento?",
+    "options": ["La creación de objetos y el control de nuevas instancias.", "La composición de clases y objetos para crear estructuras más complejas.", "La interacción y comunicación entre objetos."],
+    "correctAnswer": "La interacción y comunicación entre objetos."
   },
   {
     "id": 7,
     "category": "Patrones de Diseño",
-    "question": "¿Qué patrón define una familia de algoritmos y los encapsula para que sean intercambiables en tiempo de ejecución?",
-    "options": ["Decorator", "Strategy", "Singleton"],
-    "correctAnswer": "Strategy"
+    "question": "¿Qué garantiza el patrón Singleton?",
+    "options": ["Que una clase tenga múltiples instancias en todo el sistema.", "Que una clase solo tenga una instancia en todo el sistema.", "Que una clase no tenga instancias en el sistema."],
+    "correctAnswer": "Que una clase solo tenga una instancia en todo el sistema."
   },
   {
     "id": 8,
-    "category": "Arquitecturas",
-    "question": "¿Qué característica es clave en la arquitectura en capas?",
-    "options": ["Permitir acceso bidireccional entre capas", "Separación de responsabilidades", "Meclar datos y lógica de negocio en la capa de presentación"],
-    "correctAnswer": "Separación de responsabilidades"
+    "category": "Patrones de Diseño",
+    "question": "¿Qué permite el patrón Factory Method?",
+    "options": ["Que las subclases decidan qué clase instanciar.", "Que una clase tenga múltiples instancias en todo el sistema.", "Que una clase no tenga instancias en el sistema."],
+    "correctAnswer": "Que las subclases decidan qué clase instanciar."
   },
   {
     "id": 9,
-    "category": "Arquitecturas",
-    "question": "¿Qué capa se encarga de la interacción directa con la base de datos?",
-    "options": ["Lógica de Negocios (BL)", "Entidades (ET)", "Acceso a Datos (DAL)"],
-    "correctAnswer": "Acceso a Datos (DAL)"
+    "category": "Patrones de Diseño",
+    "question": "¿Cuáles son dos patrones fundamentales en los patrones creacionales?",
+    "options": ["Singleton y Decorator", "Factory Method y Observer", "Singleton y Factory Method"],
+    "correctAnswer": "Singleton y Factory Method"
   },
   {
     "id": 10,
-    "category": "Arquitecturas",
-    "question": "En la arquitectura en capas, ¿qué capa se enfoca en la interacción con el usuario?",
-    "options": ["UI (Presentación)", "DAL (Acceso a Datos)", "BL (Lógica de Negocios)"],
-    "correctAnswer": "UI (Presentación)"
+    "category": "Patrones de Diseño",
+    "question": "¿Cuál es el propósito principal del patrón Adaptador?",
+    "options": ["Agregar funcionalidades adicionales a un objeto sin modificar su estructura básica.", "Crear una “traducción” entre las interfaces de dos clases no compatibles.", "Definir una interfaz para crear objetos."],
+    "correctAnswer": "Crear una “traducción” entre las interfaces de dos clases no compatibles."
   },
   {
     "id": 11,
-    "category": "Arquitecturas",
-    "question": "¿Qué elemento representa los objetos de datos en la arquitectura en capas?",
-    "options": ["UI", "BL", "ET"],
-    "correctAnswer": "ET"
-  },
-  {
-    "id": 12,
-    "category": "Arquitecturas",
-    "question": "¿Cuál es una característica principal de la arquitectura de repositorio?",
-    "options": ["Distribuir datos en diferentes servidores", "Centralizar la base de datos para acceso compartido", "Crear una interfaz gráfica centralizada"],
-    "correctAnswer": "Centralizar la base de datos para acceso compartido"
-  },
-  {
-    "id": 13,
-    "category": "Pruebas de Software",
-    "question": "¿Qué prueba se centra en evaluar el comportamiento del software sin conocer su estructura interna?",
-    "options": ["Caja blanca", "Caja negra", "Depuración"],
-    "correctAnswer": "Caja negra"
+    "category": "Patrones de Diseño",
+    "question": "¿Cuál es el propósito principal del patrón Decorator?",
+    "options": ["Agregar funcionalidades adicionales a un objeto sin modificar su estructura básica.", "Crear una “traducción” entre las interfaces de dos clases no compatibles.", "Definir una interfaz para crear objetos."],
+    "correctAnswer": "Agregar funcionalidades adicionales a un objeto sin modificar su estructura básica."
   },
   {
     "id": 14,
-    "category": "Pruebas de Software",
-    "question": "¿Qué tipo de prueba verifica si las salidas coinciden con las entradas esperadas?",
-    "options": ["Caja blanca", "Caja negra", "Pruebas alfa"],
-    "correctAnswer": "Caja negra"
+    "category": "Patrones de Diseño",
+    "question": "¿Cuál es un ejemplo de uso del patrón Observer?",
+    "options": ["Una aplicación de redes sociales que notifica a los seguidores cuando un usuario publica una actualización.", "Una fábrica que crea objetos de diferentes tipos según el método de pago seleccionado.", "Una aplicación que agrega funcionalidades adicionales a un objeto sin modificar su estructura básica."],
+    "correctAnswer": "Una aplicación de redes sociales que notifica a los seguidores cuando un usuario publica una actualización."
   },
   {
     "id": 15,
-    "category": "Pruebas de Software",
-    "question": "¿Qué prueba analiza la cobertura del código?",
-    "options": ["Caja blanca", "Caja negra", "Pruebas beta"],
-    "correctAnswer": "Caja blanca"
+    "category": "Patrones de Diseño",
+    "question": "¿Cuál es el propósito principal del patrón Strategy?",
+    "options": ["Permitir que un objeto notifique a otros objetos cuando su estado cambia.", "Definir una interfaz para crear objetos.", "Definir una familia de algoritmos y encapsular cada uno en una clase."],
+    "correctAnswer": "Definir una familia de algoritmos y encapsular cada uno en una clase."
   },
   {
     "id": 16,
-    "category": "Pruebas de Software",
-    "question": "¿Qué tipo de prueba se enfoca en identificar errores comunes antes del uso final?",
-    "options": ["Validación", "Pruebas beta", "Pruebas de defectos"],
-    "correctAnswer": "Pruebas de defectos"
+    "category": "Arquitectura de Software",
+    "question": "¿Qué es un patrón arquitectónico en el desarrollo de software?",
+    "options": ["Una solución específica para un problema único en el diseño de software.", "Una solución general y reutilizable para problemas comunes en la estructura de un sistema de software.", "Un método para depurar errores en el código de software."],
+    "correctAnswer": "Una solución general y reutilizable para problemas comunes en la estructura de un sistema de software."
   },
   {
     "id": 17,
-    "category": "Pruebas de Software",
-    "question": "¿Qué tipo de prueba implica a los usuarios trabajando junto con los desarrolladores?",
-    "options": ["Pruebas alfa", "Pruebas beta", "Pruebas de aceptación"],
-    "correctAnswer": "Pruebas alfa"
+    "category": "Arquitectura de Software",
+    "question": "¿Qué es el modelo de arquitectura de n capas?",
+    "options": ["Un estilo de diseño de software que divide una aplicación en capas lógicas y niveles físicos.", "Un método para depurar errores en el código de software.", "Una técnica para aumentar la complejidad del sistema."],
+    "correctAnswer": "Un estilo de diseño de software que divide una aplicación en capas lógicas y niveles físicos."
   },
   {
     "id": 18,
-    "category": "Pruebas de Software",
-    "question": "¿Qué prueba permite a los usuarios finales evaluar si el sistema cumple con todos los requisitos?",
-    "options": ["Pruebas de aceptación", "Pruebas beta", "Pruebas de validación"],
-    "correctAnswer": "Pruebas de aceptación"
+    "category": "Arquitectura de Software",
+    "question": "¿Cuál es una de las funciones principales de las capas lógicas en una arquitectura en capas?",
+    "options": ["Organizar las capas en diferentes niveles de interacción.", "Definir interfaces bien definidas para la interacción entre capas.", "Asignar responsabilidades específicas como la interfaz de usuario, la lógica de negocio o el acceso a datos."],
+    "correctAnswer": "Asignar responsabilidades específicas como la interfaz de usuario, la lógica de negocio o el acceso a datos."
   },
   {
     "id": 19,
-    "category": "Pruebas de Software",
-    "question": "¿Qué nivel de prueba se enfoca en pequeñas partes del software como métodos o clases?",
-    "options": ["Pruebas de unidad", "Pruebas de componentes", "Pruebas de sistema"],
-    "correctAnswer": "Pruebas de unidad"
+    "category": "Arquitectura de Software",
+    "question": "¿Cómo se dividen las capas en una arquitectura de n capas?",
+    "options": ["En capas lógicas y niveles físicos", "En capas de hardware y software", "En capas de presentación y almacenamiento"],
+    "correctAnswer": "En capas lógicas y niveles físicos"
   },
   {
     "id": 20,
-    "category": "Pruebas de Software",
-    "question": "¿Qué nivel de prueba se realiza al sistema completo después de integrar todas las partes?",
-    "options": ["Pruebas de unidad", "Pruebas de sistema", "Pruebas de validación"],
-    "correctAnswer": "Pruebas de sistema"
+    "category": "Arquitectura de Software",
+    "question": "¿Cuál es la función principal de la capa de Presentación (UI) en una arquitectura de n capas?",
+    "options": ["Implementar las reglas de negocio", "Interactuar con la base de datos", "Interactuar con el usuario"],
+    "correctAnswer": "Interactuar con el usuario"
   },
   {
     "id": 21,
-    "category": "Pruebas de Software",
-    "question": "¿Qué tipo de prueba se basa en analizar diseños y requisitos sin ejecutar el software?",
-    "options": ["Pruebas de caja negra", "Inspecciones de software", "Depuración"],
-    "correctAnswer": "Inspecciones de software"
+    "category": "Arquitectura de Software",
+    "question": "¿Qué componentes típicos se encuentran en la capa de Acceso a Datos (DAL)?",
+    "options": ["Formularios y botones", "Servicios y controladores", "Repositorios y mapeadores de datos"],
+    "correctAnswer": "Repositorios y mapeadores de datos"
   },
   {
     "id": 22,
-    "category": "Pruebas de Software",
-    "question": "¿Qué tipo de prueba asegura que el software esté listo para los usuarios finales?",
-    "options": ["Pruebas de versión", "Pruebas alfa", "Pruebas de aceptación"],
-    "correctAnswer": "Pruebas de versión"
+    "category": "Arquitectura de Software",
+    "question": "¿Cuál es el objetivo principal de la capa de Entidades (ET) en una arquitectura de n capas?",
+    "options": ["Proporcionar una experiencia de usuario intuitiva", "Representar los objetos de datos utilizados en la aplicación", "Manejar la lógica de negocio"],
+    "correctAnswer": "Representar los objetos de datos utilizados en la aplicación"
   },
   {
     "id": 23,
-    "category": "Mantenimiento y Evolución del Software",
-    "question": "¿Qué tipo de mantenimiento se realiza para corregir errores en el software?",
-    "options": ["Correctivo", "Adaptativo", "Perfectivo"],
-    "correctAnswer": "Correctivo"
+    "category": "Arquitectura de Software",
+    "question": "¿Cuál es un uso común de la arquitectura de repositorio?",
+    "options": ["Sistemas de procesamiento en tiempo real", "Sistemas donde los datos son el centro, como bases de datos centralizadas", "Sistemas de control de versiones"],
+    "correctAnswer": "Sistemas donde los datos son el centro, como bases de datos centralizadas"
   },
   {
     "id": 24,
-    "category": "Mantenimiento y Evolución del Software",
-    "question": "¿Qué tipo de mantenimiento se enfoca en mejorar o agregar nuevas funcionalidades?",
-    "options": ["Correctivo", "Perfectivo", "Adaptativo"],
-    "correctAnswer": "Perfectivo"
+    "category": "Arquitectura de Software",
+    "question": "¿Cuál es una característica clave de la arquitectura cliente-servidor?",
+    "options": ["Los clientes y servidores operan de manera independiente sin necesidad de una red", "Los clientes solicitan servicios y los servidores responden a esas solicitudes a través de una red", "Los servidores solicitan servicios y los clientes responden a esas solicitudes"],
+    "correctAnswer": "Los clientes solicitan servicios y los servidores responden a esas solicitudes a través de una red"
   },
   {
     "id": 25,
-    "category": "Mantenimiento y Evolución del Software",
-    "question": "¿Qué enfoque de evolución del software implica decisiones documentadas y evaluaciones de impacto?",
-    "options": ["Formal", "Informal", "Perfectivo"],
-    "correctAnswer": "Formal"
+    "category": "Arquitectura de Software",
+    "question": "¿Cuál es la función principal de un servidor en una arquitectura cliente-servidor?",
+    "options": ["Solicitar servicios a otros componentes del sistema", "Ofrecer servicios a otros componentes del sistema (los clientes)", "Operar de manera independiente sin interactuar con otros componentes"],
+    "correctAnswer": "Ofrecer servicios a otros componentes del sistema (los clientes)"
   },
   {
     "id": 26,
-    "category": "Mantenimiento y Evolución del Software",
-    "question": "¿Cuál de los siguientes no es un desafío común en el mantenimiento de software?",
-    "options": ["Estabilidad del equipo", "Uso de hardware obsoleto", "Aumentar la flexibilidad del código"],
-    "correctAnswer": "Aumentar la flexibilidad del código"
+    "category": "Arquitectura de Software",
+    "question": "¿Cuál es la función principal de un cliente en una arquitectura cliente-servidor?",
+    "options": ["Ofrecer servicios a otros componentes del sistema", "Solicitar servicios a los servidores", "Operar de manera independiente sin interactuar con otros componentes"],
+    "correctAnswer": "Solicitar servicios a los servidores"
   },
   {
     "id": 27,
-    "category": "Mantenimiento y Evolución del Software",
-    "question": "¿Qué estrategia se utiliza para anticipar cambios y reducir costos de mantenimiento?",
-    "options": ["Refactorización", "Simplificación de componentes", "Predicción de mantenimiento"],
-    "correctAnswer": "Predicción de mantenimiento"
+    "category": "Arquitectura de Software",
+    "question": "¿Cuál de las siguientes opciones describe mejor el papel de una red en una arquitectura cliente-servidor?",
+    "options": ["Almacenar datos de manera centralizada", "Facilitar la comunicación entre clientes y servidores", "Ejecutar aplicaciones de manera independiente"],
+    "correctAnswer": "Facilitar la comunicación entre clientes y servidores"
   },
   {
     "id": 28,
-    "category": "Reingeniería del Software",
-    "question": "¿Qué paso de la reingeniería mejora la estructura del código?",
-    "options": ["Traducción de código", "Modularización", "Refactorización"],
-    "correctAnswer": "Refactorización"
+    "category": "Arquitectura de Software",
+    "question": "¿Cuál es el propósito de los filtros en una arquitectura de tuberías y filtros?",
+    "options": ["Almacenar datos de manera centralizada", "Transformar los datos que reciben y pasarlos al siguiente filtro en la secuencia", "Conectar a los clientes y servidores"],
+    "correctAnswer": "Transformar los datos que reciben y pasarlos al siguiente filtro en la secuencia"
   },
   {
     "id": 29,
-    "category": "Reingeniería del Software",
-    "question": "¿Qué actividad de reingeniería se enfoca en ajustar la base de datos para adaptarse a mejoras?",
-    "options": ["Reingeniería de datos", "Modularización", "Reingeniería inversa"],
-    "correctAnswer": "Reingeniería de datos"
+    "category": "Arquitectura de Software",
+    "question": "¿Cuál es el propósito de las tuberías en una arquitectura de tuberías y filtros?",
+    "options": ["Almacenar datos de manera centralizada", "Conectar los filtros, permitiendo que los datos fluyan de uno a otro", "Transformar los datos que reciben y pasarlos al siguiente filtro en la secuencia"],
+    "correctAnswer": "Conectar los filtros, permitiendo que los datos fluyan de uno a otro"
   },
   {
     "id": 30,
-    "category": "Reingeniería del Software",
-    "question": "¿Qué actividad de reingeniería convierte el software a un lenguaje más moderno?",
-    "options": ["Refactorización", "Traducción de código", "Modularización"],
-    "correctAnswer": "Traducción de código"
+    "category": "Desarrollo de Software",
+    "question": "¿Cuál es una estrategia que puede optimizar el proceso de implementación de software?",
+    "options": ["Ignorar el diseño del software", "Reutilización de software", "Evitar la documentación del proyecto"],
+    "correctAnswer": "Reutilización de software"
   },
   {
     "id": 31,
-    "category": "Reingeniería del Software",
-    "question": "¿Cuándo es más adecuada la reingeniería en comparación con la refactorización?",
-    "options": ["Durante el desarrollo inicial", "Después de un largo periodo de mantenimiento", "Antes de lanzar el producto"],
-    "correctAnswer": "Después de un largo periodo de mantenimiento"
+    "category": "Reutilización de Software",
+    "question": "¿Cuáles son los niveles de reutilización de software vistos en clases?",
+    "options": ["Nivel de Abstracción, Nivel Objeto, Nivel Componente, Nivel Sistema", "Nivel de Abstracción, Nivel Código, Nivel Componente, Nivel Aplicación", "Nivel Conceptual, Nivel Objeto, Nivel Componente, Nivel Sistema"],
+    "correctAnswer": "Nivel de Abstracción, Nivel Código, Nivel Componente, Nivel Aplicación"
   },
   {
     "id": 32,
-    "category": "Reingeniería del Software",
-    "question": "¿Qué caso típico requiere refactorización?",
-    "options": ["Aglomeración de datos", "Uso de interfaces modernas", "Implementación de pruebas de usuario"],
-    "correctAnswer": "Aglomeración de datos"
+    "category": "Reutilización de Software",
+    "question": "¿Qué implica el costo de búsqueda y evaluación en la reutilización de software?",
+    "options": ["El tiempo y recursos necesarios para buscar y evaluar software o componentes reutilizables", "El costo de desarrollar software desde cero", "El costo de mantenimiento del software una vez implementado"],
+    "correctAnswer": "El tiempo y recursos necesarios para buscar y evaluar software o componentes reutilizables"
   },
   {
     "id": 33,
-    "category": "Administración de Sistemas Heredados",
-    "question": "¿Qué estrategia implica dejar de usar un sistema heredado cuando ya no es funcional?",
-    "options": ["Desechar el sistema", "Reingeniería del sistema", "Sustituir el sistema"],
-    "correctAnswer": "Desechar el sistema"
+    "category": "Reutilización de Software",
+    "question": "¿Qué implica el costo de adaptación y configuración en la reutilización de software?",
+    "options": ["El tiempo y recursos necesarios para buscar y evaluar software o componentes reutilizables", "El dinero pagado para adquirir software comercial o licencias necesarias", "El tiempo y esfuerzo para modificar o personalizar el software para que se ajuste a las necesidades específicas del proyecto"],
+    "correctAnswer": "El tiempo y esfuerzo para modificar o personalizar el software para que se ajuste a las necesidades específicas del proyecto"
   },
   {
     "id": 34,
-    "category": "Administración de Sistemas Heredados",
-    "question": "¿Qué evaluación mide la importancia de un sistema para la empresa?",
-    "options": ["Evaluación de calidad técnica", "Evaluación de valor empresarial", "Evaluación de mantenimiento"],
-    "correctAnswer": "Evaluación de valor empresarial"
+    "category": "Pruebas de Software",
+    "question": "¿Cuál es el propósito principal de las pruebas de desarrollo?",
+    "options": ["Desarrollar nuevas características para el software", "Verificar que el software cumple con los requisitos establecidos y detectar posibles errores o problemas", "Implementar el software en el entorno de producción"],
+    "correctAnswer": "Verificar que el software cumple con los requisitos establecidos y detectar posibles errores o problemas"
   },
   {
     "id": 35,
-    "category": "Administración de Sistemas Heredados",
-    "question": "¿Cuál no es un factor técnico que afecta la administración de sistemas heredados?",
-    "options": ["Interfaces de usuario", "Poder organizacional", "Volumen de datos"],
-    "correctAnswer": "Poder organizacional"
+    "category": "Pruebas de Software",
+    "question": "¿Cuáles son los dos enfoques principales de las pruebas de desarrollo?",
+    "options": ["Pruebas de integración y pruebas de sistema", "Pruebas de validación y pruebas de defectos", "Pruebas de rendimiento y pruebas de seguridad"],
+    "correctAnswer": "Pruebas de validación y pruebas de defectos"
   },
   {
     "id": 36,
-    "category": "Administración de Sistemas Heredados",
-    "question": "¿Qué decisión suele tomarse después de una fusión empresarial?",
-    "options": ["Reemplazar los sistemas más modernos", "Mantener los sistemas de mayor influencia política", "Reutilizar software sin evaluar su calidad"],
-    "correctAnswer": "Mantener los sistemas de mayor influencia política"
+    "category": "Pruebas de Software",
+    "question": "¿Cómo se apoyan mutuamente los enfoques de validación y de defectos en las pruebas de desarrollo?",
+    "options": ["La validación y la búsqueda de defectos son procesos independientes que no se influyen mutuamente", "Mientras validas el software, puedes encontrar errores, y al buscar errores, puedes confirmar que el sistema funciona correctamente", "La validación se realiza solo después de que se han encontrado todos los defectos"],
+    "correctAnswer": "Mientras validas el software, puedes encontrar errores, y al buscar errores, puedes confirmar que el sistema funciona correctamente"
   },
   {
     "id": 37,
-    "category": "Administración de Sistemas Heredados",
-    "question": "¿Qué tipo de sistema tiene baja calidad pero alto valor empresarial?",
-    "options": ["Sistemas críticos", "Sistemas importantes con problemas técnicos", "Sistemas modernos con poca importancia"],
-    "correctAnswer": "Sistemas importantes con problemas técnicos"
+    "category": "Pruebas de Software",
+    "question": "¿Qué implica el propósito del software en relación con las pruebas?",
+    "options": ["Cuanto más crítico sea el software, menos pruebas necesita", "Cuanto más crítico sea el software, más exhaustivas deben ser las pruebas de validación y defectos", "El propósito del software no afecta la cantidad de pruebas necesarias"],
+    "correctAnswer": "Cuanto más crítico sea el software, más exhaustivas deben ser las pruebas de validación y defectos"
   },
   {
     "id": 38,
-    "category": "Administración de Sistemas Heredados",
-    "question": "¿Qué estrategia implica sustituir un sistema heredado porque el hardware ya no lo soporta?",
-    "options": ["Reingeniería del sistema", "Sustituir el sistema", "Desechar el sistema"],
-    "correctAnswer": "Sustituir el sistema"
+    "category": "Pruebas de Software",
+    "question": "¿Cómo afectan las expectativas del usuario las pruebas de software?",
+    "options": ["Las expectativas del usuario no afectan las pruebas de software", "Si se sabe que los usuarios esperan alta calidad, se deben realizar pruebas más rigurosas", "Las expectativas del usuario solo afectan el diseño del software, no las pruebas"],
+    "correctAnswer": "Si se sabe que los usuarios esperan alta calidad, se deben realizar pruebas más rigurosas"
   },
   {
     "id": 39,
-    "category": "Administración de Sistemas Heredados",
-    "question": "¿Qué factor puede influir en mantener un sistema heredado a pesar de ser obsoleto?",
-    "options": ["Presupuesto", "Alto rendimiento del sistema", "Volumen de datos manejados"],
-    "correctAnswer": "Presupuesto"
+    "category": "Pruebas de Software",
+    "question": "¿Cómo puede afectar el entorno de mercado las pruebas de software?",
+    "options": ["Las pruebas siempre deben ser exhaustivas, independientemente del entorno de mercado", "En un entorno de mercado donde el precio es un factor importante, las pruebas pueden ser menos exhaustivas y los usuarios podrían aceptar más errores", "El entorno de mercado no afecta las pruebas de software"],
+    "correctAnswer": "En un entorno de mercado donde el precio es un factor importante, las pruebas pueden ser menos exhaustivas y los usuarios podrían aceptar más errores"
   },
   {
     "id": 40,
-    "category": "Administración de Sistemas Heredados",
-    "question": "¿Qué estrategia ayuda a modernizar aplicaciones \"legacy\"?",
-    "options": ["Migración a la nube", "Incremento de interfaces", "Reducción de servidores"],
-    "correctAnswer": "Migración a la nube"
+    "category": "Pruebas de Software",
+    "question": "¿Qué son las inspecciones de software?",
+    "options": ["Pruebas que se realizan ejecutando el software", "Revisiones del código, diseños y requisitos del software sin ejecutarlo", "Pruebas de rendimiento del software en funcionamiento"],
+    "correctAnswer": "Revisiones del código, diseños y requisitos del software sin ejecutarlo"
   },
   {
     "id": 41,
-    "category": "Procesos de Pruebas",
-    "question": "¿Qué nivel de prueba se realiza cuando las unidades se combinan y se prueba su interacción?",
-    "options": ["Pruebas de componentes", "Pruebas de integración", "Pruebas de sistema"],
-    "correctAnswer": "Pruebas de componentes"
+    "category": "Pruebas de Software",
+    "question": "¿Cuál es una ventaja de las inspecciones de software sobre las pruebas?",
+    "options": ["Solo pueden detectar un error a la vez", "Pueden encontrar varios errores al mismo tiempo y no requieren que el software esté completo", "Requieren que el software esté completamente terminado antes de comenzar"],
+    "correctAnswer": "Pueden encontrar varios errores al mismo tiempo y no requieren que el software esté completo"
   },
   {
     "id": 42,
-    "category": "Procesos de Pruebas",
-    "question": "¿Cuál es una característica principal de las pruebas de caja negra?",
-    "options": ["Conocer la estructura del código", "Verificar salidas basadas en entradas", "Analizar bucles y condiciones"],
-    "correctAnswer": "Verificar salidas basadas en entradas"
+    "category": "Pruebas de Software",
+    "question": "¿Cuál es el propósito principal de las pruebas de software?",
+    "options": ["Desarrollar nuevas características para el software", "Identificar errores, fallos y problemas en el software antes de su lanzamiento", "Implementar el software en el entorno de producción"],
+    "correctAnswer": "Identificar errores, fallos y problemas en el software antes de su lanzamiento"
   },
   {
     "id": 43,
-    "category": "Procesos de Pruebas",
-    "question": "¿Qué tipo de prueba se realiza con datos de usuarios finales en entornos reales?",
-    "options": ["Pruebas beta", "Pruebas alfa", "Depuración"],
-    "correctAnswer": "Pruebas beta"
+    "category": "Pruebas de Software",
+    "question": "¿Cuáles son los tres niveles principales de pruebas de software?",
+    "options": ["Pruebas de integración, pruebas de aceptación, pruebas de rendimiento", "Pruebas de unidad, pruebas de componentes, pruebas de sistemas", "Pruebas de seguridad, pruebas de usabilidad, pruebas de compatibilidad"],
+    "correctAnswer": "Pruebas de unidad, pruebas de componentes, pruebas de sistemas"
   },
   {
     "id": 44,
-    "category": "Procesos de Pruebas",
-    "question": "¿Qué pruebas detectan errores en las primeras etapas del desarrollo?",
-    "options": ["Pruebas de unidad", "Pruebas de aceptación", "Pruebas de sistema"],
-    "correctAnswer": "Pruebas de unidad"
+    "category": "Pruebas de Software",
+    "question": "¿Qué se prueba en las pruebas de unidad?",
+    "options": ["El sistema completo", "Partes pequeñas del software, como clases o métodos", "La interfaz de usuario"],
+    "correctAnswer": "Partes pequeñas del software, como clases o métodos"
   },
   {
     "id": 45,
-    "category": "Procesos de Pruebas",
-    "question": "¿Qué tipo de prueba no se basa en la ejecución del software?",
-    "options": ["Pruebas de validación", "Inspecciones de software", "Depuración"],
-    "correctAnswer": "Inspecciones de software"
+    "category": "Pruebas de Software",
+    "question": "¿Qué se prueba en las pruebas de componentes?",
+    "options": ["Partes pequeñas del software, como clases o métodos", "La interfaz de usuario", "Cómo se comunican entre sí las unidades para formar componentes más grandes"],
+    "correctAnswer": "Cómo se comunican entre sí las unidades para formar componentes más grandes"
   },
   {
     "id": 46,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Qué estrategia implica anticipar cambios necesarios en un sistema?",
-    "options": ["Simplificación de componentes", "Predicción de mantenimiento", "Reingeniería inversa"],
-    "correctAnswer": "Predicción de mantenimiento"
+    "category": "Pruebas de Software",
+    "question": "¿Qué se verifica en las pruebas de sistema?",
+    "options": ["Partes pequeñas del software, como clases o métodos", "La interfaz de usuario", "Que todo el sistema funcione como se espera cuando todas las partes están integradas y se comuniquen correctamente"],
+    "correctAnswer": "Que todo el sistema funcione como se espera cuando todas las partes están integradas y se comuniquen correctamente"
   },
   {
     "id": 47,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Qué desafío puede surgir al agregar funcionalidades nuevas a un sistema antiguo?",
-    "options": ["Mayor estabilidad del equipo", "Deterioro de la estructura del sistema", "Reducción de dependencias"],
-    "correctAnswer": "Deterioro de la estructura del sistema"
+    "category": "Pruebas de Software",
+    "question": "¿Qué implica el proceso de depuración (debugging) en el desarrollo de software?",
+    "options": ["Añadir nuevas características al software", "Buscar la parte del código que está causando el error y corregirlo", "Ejecutar pruebas de rendimiento"],
+    "correctAnswer": "Buscar la parte del código que está causando el error y corregirlo"
   },
   {
     "id": 48,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Qué tipo de mantenimiento ajusta un sistema a nuevos requerimientos?",
-    "options": ["Correctivo", "Adaptativo", "Perfectivo"],
-    "correctAnswer": "Adaptativo"
+    "category": "Pruebas de Software",
+    "question": "¿Qué se evalúa en las pruebas de caja blanca?",
+    "options": ["El flujo de control, las decisiones lógicas y las rutas de ejecución dentro del sistema", "La interfaz de usuario y la experiencia del usuario", "La funcionalidad del software sin conocer su estructura interna"],
+    "correctAnswer": "El flujo de control, las decisiones lógicas y las rutas de ejecución dentro del sistema"
   },
   {
     "id": 49,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Cuál es una estrategia para reducir los costos de mantenimiento?",
-    "options": ["Incrementar interfaces complejas", "Simplificar componentes complejos", "Reducir pruebas de validación"],
-    "correctAnswer": "Simplificar componentes complejos"
+    "category": "Pruebas de Software",
+    "question": "¿Qué deben comprender los ingenieros de pruebas que trabajan con pruebas de caja blanca?",
+    "options": ["El diseño de la interfaz de usuario", "El código y el diseño del sistema", "Las preferencias del usuario final"],
+    "correctAnswer": "El código y el diseño del sistema"
   },
   {
     "id": 50,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Qué actividad durante el mantenimiento puede generar altos costos inesperados?",
-    "options": ["Refactorización", "Comprensión del sistema", "Reingeniería de datos"],
-    "correctAnswer": "Comprensión del sistema"
+    "category": "Pruebas de Software",
+    "question": "¿Qué tipo de pruebas utilizan los equipos de control de calidad técnicos para encontrar errores ocultos que no se detectan con pruebas de caja negra?",
+    "options": ["Pruebas de caja negra", "Pruebas de aceptación del usuario", "Pruebas de caja blanca"],
+    "correctAnswer": "Pruebas de caja blanca"
   },
   {
     "id": 51,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué actividad reorganiza el código para facilitar su comprensión?",
-    "options": ["Modularización", "Refactorización", "Traducción de código"],
-    "correctAnswer": "Refactorización"
+    "category": "Pruebas de Software",
+    "question": "¿Quién realiza las pruebas de versiones para verificar que el software funcione como se espera y cumpla con los requisitos?",
+    "options": ["El equipo de desarrollo", "Un equipo independiente especializado en pruebas", "Los clientes o usuarios finales"],
+    "correctAnswer": "Un equipo independiente especializado en pruebas"
   },
   {
     "id": 52,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Cuál es una característica de la reingeniería inversa?",
-    "options": ["Facilitar la migración de datos", "Entender y documentar un sistema existente", "Eliminar redundancias en los datos"],
-    "correctAnswer": "Entender y documentar un sistema existente"
+    "category": "Pruebas de Software",
+    "question": "¿Cuál es el objetivo principal de las pruebas de versión?",
+    "options": ["Encontrar y corregir errores durante la creación del software", "Verificar que el software cumpla con los requisitos solicitados y esté listo para los usuarios", "Mejorar la interfaz de usuario del software"],
+    "correctAnswer": "Verificar que el software cumpla con los requisitos solicitados y esté listo para los usuarios"
   },
   {
     "id": 53,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué caso típico requiere refactorización?",
-    "options": ["Código duplicado", "Traducción de lenguajes", "Migración de servidores"],
-    "correctAnswer": "Código duplicado"
+    "category": "Pruebas de Software",
+    "question": "¿Qué se ignora en las pruebas de caja negra?",
+    "options": ["Las entradas y salidas del sistema", "El comportamiento del software desde el exterior", "El código interno del sistema"],
+    "correctAnswer": "El código interno del sistema"
   },
   {
     "id": 54,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué actividad convierte un programa de un lenguaje antiguo a uno moderno?",
-    "options": ["Modularización", "Traducción de código", "Refactorización"],
-    "correctAnswer": "Traducción de código"
+    "category": "Pruebas de Software",
+    "question": "¿En qué se centran las pruebas de caja negra?",
+    "options": ["En cómo está construido el código interno del sistema", "En lo que el software hace, no en cómo lo hace", "En la estructura interna del software"],
+    "correctAnswer": "En lo que el software hace, no en cómo lo hace"
   },
   {
     "id": 55,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Cuándo es más recomendable realizar reingeniería en lugar de refactorización?",
-    "options": ["Durante el desarrollo inicial del sistema", "Cuando el sistema necesita una transformación significativa", "Antes de implementar nuevos módulos"],
-    "correctAnswer": "Cuando el sistema necesita una transformación significativa"
+    "category": "Pruebas de Software",
+    "question": "¿Por qué están relacionadas las pruebas de versión con las pruebas de caja negra?",
+    "options": ["Porque ambas se centran en la estructura interna del software", "Porque ambas evalúan si el software cumple con los requisitos establecidos y responde correctamente a las acciones del usuario", "Porque ambas requieren conocimiento del código fuente"],
+    "correctAnswer": "Porque ambas evalúan si el software cumple con los requisitos establecidos y responde correctamente a las acciones del usuario"
   },
   {
     "id": 56,
-    "category": "Arquitecturas y Componentes",
-    "question": "¿Qué característica define a la arquitectura de tubería y filtro?",
-    "options": ["Procesamiento de datos a través de pasos independientes", "Uso de componentes centralizados para manejar la lógica", "Comunicación bidireccional entre filtros"],
-    "correctAnswer": "Procesamiento de datos a través de pasos independientes"
+    "category": "Pruebas de Software",
+    "question": "¿Quién realiza las pruebas de usuario?",
+    "options": ["Los desarrolladores del software", "Los usuarios finales o personas del equipo de marketing", "Los ingenieros de pruebas (testers técnicos)"],
+    "correctAnswer": "Los usuarios finales o personas del equipo de marketing"
   },
   {
     "id": 57,
-    "category": "Arquitecturas y Componentes",
-    "question": "En la arquitectura de capas, ¿qué capa gestiona las reglas de negocio?",
-    "options": ["UI (Presentación)", "BL (Lógica de Negocios)", "DAL (Acceso a Datos)"],
-    "correctAnswer": "BL (Lógica de Negocios)"
+    "category": "Pruebas de Software",
+    "question": "¿Cuáles son los tipos principales de pruebas de usuario?",
+    "options": ["Pruebas alfa, pruebas beta, pruebas de aceptación", "Pruebas unitarias, pruebas de integración, pruebas de sistema", "Pruebas de caja blanca, pruebas de caja negra, pruebas de regresión"],
+    "correctAnswer": "Pruebas alfa, pruebas beta, pruebas de aceptación"
   },
   {
     "id": 58,
-    "category": "Arquitecturas y Componentes",
-    "question": "¿Qué elemento en una arquitectura en capas representa los datos utilizados en la aplicación?",
-    "options": ["Lógica de Negocios (BL)", "Entidades (ET)", "Presentación (UI)"],
-    "correctAnswer": "Entidades (ET)"
+    "category": "Pruebas de Software",
+    "question": "¿Cuál es la principal diferencia entre las pruebas alfa y las pruebas beta?",
+    "options": ["Las pruebas alfa se realizan en las oficinas de los desarrolladores, mientras que las pruebas beta se realizan en los entornos propios de los usuarios.", "Las pruebas alfa se centran en la interfaz de usuario, mientras que las pruebas beta se centran en la funcionalidad interna del software.", "Las pruebas alfa son realizadas por los usuarios finales, mientras que las pruebas beta son realizadas por los desarrolladores."],
+    "correctAnswer": "Las pruebas alfa se realizan en las oficinas de los desarrolladores, mientras que las pruebas beta se realizan en los entornos propios de los usuarios."
   },
   {
     "id": 59,
-    "category": "Arquitecturas y Componentes",
-    "question": "¿Qué es un repositorio en una arquitectura de sistemas?",
-    "options": ["Un servidor que aloja datos descentralizados", "Una base de datos centralizada para componentes del sistema", "Un componente dedicado a pruebas de software"],
-    "correctAnswer": "Una base de datos centralizada para componentes del sistema"
+    "category": "Pruebas de Software",
+    "question": "¿Cuál es el objetivo principal de las pruebas de aceptación?",
+    "options": ["Identificar mejoras durante el desarrollo", "Encontrar errores en el entorno del usuario antes del lanzamiento final", "Asegurar que el cliente esté satisfecho con el producto antes de su implementación completa"],
+    "correctAnswer": "Asegurar que el cliente esté satisfecho con el producto antes de su implementación completa"
   },
   {
     "id": 60,
-    "category": "Arquitecturas y Componentes",
-    "question": "¿Qué capa de la arquitectura en capas está directamente vinculada a los usuarios?",
-    "options": ["UI (Presentación)", "BL (Lógica de Negocios)", "DAL (Acceso a Datos)"],
-    "correctAnswer": "UI (Presentación)"
+    "category": "Pruebas de Software",
+    "question": "¿Cuál es una razón común para realizar cambios en un programa después de su lanzamiento?",
+    "options": ["Para reducir el tamaño del equipo de desarrollo", "Para agregar nuevas características, corregir errores, o mejorar el sistema en función de la retroalimentación de los usuarios", "Para cambiar el nombre del software"],
+    "correctAnswer": "Para agregar nuevas características, corregir errores, o mejorar el sistema en función de la retroalimentación de los usuarios"
   },
   {
     "id": 61,
-    "category": "Administración de Sistemas Heredados",
-    "question": "¿Qué estrategia implica mantener un sistema heredado sin realizar cambios?",
-    "options": ["Reingeniería del sistema", "Desechar el sistema", "Mantener sin cambios"],
-    "correctAnswer": "Mantener sin cambios"
+    "category": "Pruebas de Software",
+    "question": "¿Cómo se suelen discutir las mejoras en un enfoque informal?",
+    "options": ["A través de reuniones formales y documentadas", "Mediante conversaciones directas entre desarrolladores y usuarios", "Utilizando herramientas automatizadas de gestión de proyectos"],
+    "correctAnswer": "Mediante conversaciones directas entre desarrolladores y usuarios"
   },
   {
     "id": 62,
-    "category": "Administración de Sistemas Heredados",
-    "question": "¿Qué tipo de sistema tiene alta calidad pero bajo valor para la empresa?",
-    "options": ["Sistemas críticos", "Sistemas bien diseñados pero poco importantes", "Sistemas con alta dependencia de hardware"],
-    "correctAnswer": "Sistemas bien diseñados pero poco importantes"
+    "category": "Pruebas de Software",
+    "question": "¿Qué implica el enfoque formal en la evolución del software?",
+    "options": ["Realizar cambios sin documentación ni evaluación", "Documentar cada cambio propuesto, evaluar su impacto y costo, y luego decidir si se implementa", "Hacer cambios basados únicamente en la intuición de los desarrolladores"],
+    "correctAnswer": "Documentar cada cambio propuesto, evaluar su impacto y costo, y luego decidir si se implementa"
   },
   {
     "id": 63,
-    "category": "Administración de Sistemas Heredados",
-    "question": "¿Qué factor no técnico puede influir en la decisión sobre sistemas heredados?",
-    "options": ["Interfaces de usuario", "Fusión de empresas", "Volumen de datos"],
-    "correctAnswer": "Fusión de empresas"
+    "category": "Pruebas de Software",
+    "question": "¿Cuáles son las etapas del proceso de evolución del software?",
+    "options": ["Peticiones de Cambio, Análisis del Impacto, Planeación de la Versión, Cambio de Implementación, Liberación del Sistema", "Diseño, Desarrollo, Pruebas, Implementación, Mantenimiento", "Requisitos, Diseño, Codificación, Pruebas, Mantenimiento"],
+    "correctAnswer": "Peticiones de Cambio, Análisis del Impacto, Planeación de la Versión, Cambio de Implementación, Liberación del Sistema"
   },
   {
     "id": 64,
-    "category": "Administración de Sistemas Heredados",
-    "question": "¿Qué evaluación mide el impacto técnico de mantener un sistema?",
-    "options": ["Evaluación de calidad técnica", "Evaluación de valor empresarial", "Evaluación de presupuesto"],
-    "correctAnswer": "Evaluación de calidad técnica"
+    "category": "Pruebas de Software",
+    "question": "¿Cuál es el objetivo principal del proceso de evolución del software?",
+    "options": ["Reducir el tamaño del equipo de desarrollo", "Mantener el software actualizado y relevante a las necesidades de los usuarios", "Cambiar el nombre del software"],
+    "correctAnswer": "Mantener el software actualizado y relevante a las necesidades de los usuarios"
   },
   {
     "id": 65,
-    "category": "Administración de Sistemas Heredados",
-    "question": "¿Qué estrategia es más adecuada para sistemas con alta calidad y alto valor empresarial?",
-    "options": ["Desechar el sistema", "Reingeniería del sistema", "Mantener con mejoras"],
-    "correctAnswer": "Mantener con mejoras"
+    "category": "Mantenimiento de Software",
+    "question": "¿Qué incluye el mantenimiento del software?",
+    "options": ["Solo la corrección de errores", "Solo la creación de nuevas características", "Tanto pequeños arreglos de errores como mejoras significativas para satisfacer nuevas necesidades"],
+    "correctAnswer": "Tanto pequeños arreglos de errores como mejoras significativas para satisfacer nuevas necesidades"
   },
   {
     "id": 66,
-    "category": "Pruebas de Software",
-    "question": "¿Qué prueba se realiza sin acceso al código fuente del sistema?",
-    "options": ["Caja negra", "Caja blanca", "Pruebas de unidad"],
-    "correctAnswer": "Caja negra"
+    "category": "Mantenimiento de Software",
+    "question": "¿Cuáles son los tipos de mantenimiento del software?",
+    "options": ["Mantenimiento correctivo, mantenimiento adaptativo, mantenimiento perfectivo", "Mantenimiento preventivo, mantenimiento predictivo, mantenimiento reactivo", "Mantenimiento estructural, mantenimiento funcional, mantenimiento operativo"],
+    "correctAnswer": "Mantenimiento correctivo, mantenimiento adaptativo, mantenimiento perfectivo"
   },
   {
     "id": 67,
-    "category": "Pruebas de Software",
-    "question": "¿Qué tipo de prueba se realiza en una versión preliminar del software en entornos reales?",
-    "options": ["Pruebas beta", "Pruebas alfa", "Pruebas de validación"],
-    "correctAnswer": "Pruebas beta"
+    "category": "Mantenimiento de Software",
+    "question": "¿Cuál es uno de los principales desafíos del mantenimiento del software?",
+    "options": ["Reducir el tamaño del equipo de desarrollo", "Agregar nuevas funcionalidades después de que el software ya está en uso", "Cambiar el nombre del software"],
+    "correctAnswer": "Agregar nuevas funcionalidades después de que el software ya está en uso"
   },
   {
     "id": 68,
-    "category": "Pruebas de Software",
-    "question": "¿Qué tipo de prueba asegura que un módulo funcione correctamente de forma independiente?",
-    "options": ["Pruebas de unidad", "Pruebas de sistema", "Pruebas de integración"],
-    "correctAnswer": "Pruebas de unidad"
+    "category": "Mantenimiento de Software",
+    "question": "¿Por qué es costoso agregar nuevas funcionalidades al software después de que ya está en uso?",
+    "options": ["Porque los desarrolladores necesitan entender bien el sistema y analizar cómo los cambios afectarán al resto del software", "Porque es necesario cambiar el nombre del software", "Porque reduce el tamaño del equipo de desarrollo"],
+    "correctAnswer": "Porque los desarrolladores necesitan entender bien el sistema y analizar cómo los cambios afectarán al resto del software"
   },
   {
     "id": 69,
-    "category": "Pruebas de Software",
-    "question": "¿Qué tipo de prueba evalúa el sistema completo con todas las partes integradas?",
-    "options": ["Pruebas de unidad", "Pruebas de sistema", "Pruebas de validación"],
-    "correctAnswer": "Pruebas de sistema"
+    "category": "Mantenimiento de Software",
+    "question": "¿Cuál es una estrategia para reducir los costos de mantenimiento del software?",
+    "options": ["Aumentar la complejidad de los componentes", "Simplificar o sustituir componentes complejos", "Ignorar los problemas de mantenimiento"],
+    "correctAnswer": "Simplificar o sustituir componentes complejos"
   },
   {
     "id": 70,
-    "category": "Pruebas de Software",
-    "question": "¿Qué tipo de prueba detecta errores durante el desarrollo en un entorno controlado?",
-    "options": ["Depuración", "Pruebas alfa", "Pruebas beta"],
-    "correctAnswer": "Depuración"
+    "category": "Reingeniería de Software",
+    "question": "¿Qué es la reingeniería de software?",
+    "options": ["Un proceso para crear nuevos sistemas desde cero", "Un proceso para mejorar sistemas antiguos que son difíciles de mantener", "Un proceso para eliminar sistemas antiguos sin reemplazarlos"],
+    "correctAnswer": "Un proceso para mejorar sistemas antiguos que son difíciles de mantener"
   },
   {
     "id": 71,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Qué desafío surge de sistemas muy complejos en mantenimiento?",
-    "options": ["Aumento de presupuesto", "Mayor dificultad para realizar cambios", "Reducción en el volumen de datos"],
-    "correctAnswer": "Mayor dificultad para realizar cambios"
+    "category": "Reingeniería de Software",
+    "question": "¿Cuáles son los beneficios de la reingeniería de software?",
+    "options": ["Aumentar la complejidad del sistema y dificultar su mantenimiento", "Mejorar la documentación, la estructura del software, actualizar el lenguaje de programación, y optimizar la organización de datos", "Eliminar la necesidad de realizar pruebas de usuario"],
+    "correctAnswer": "Mejorar la documentación, la estructura del software, actualizar el lenguaje de programación, y optimizar la organización de datos"
   },
   {
     "id": 72,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Qué tipo de mantenimiento se realiza para corregir errores en el software?",
-    "options": ["Correctivo", "Perfectivo", "Adaptativo"],
-    "correctAnswer": "Correctivo"
+    "category": "Reingeniería de Software",
+    "question": "¿Cuáles son los beneficios de la reingeniería de software?",
+    "options": ["Aumentar el riesgo y los costos", "Reducción del riesgo y reducción de costos", "Eliminar la necesidad de mantenimiento"],
+    "correctAnswer": "Reducción del riesgo y reducción de costos"
   },
   {
     "id": 73,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Qué estrategia puede reducir costos de mantenimiento en el futuro?",
-    "options": ["Incrementar funcionalidades sin planear", "Diseñar componentes simples y bien definidos", "Sustituir sistemas con baja calidad"],
-    "correctAnswer": "Diseñar componentes simples y bien definidos"
+    "category": "Reingeniería de Software",
+    "question": "¿Cuál de las siguientes actividades implica convertir un programa de un lenguaje de programación antiguo a uno más moderno?",
+    "options": ["Ingeniería inversa", "Traducción del código fuente", "Modularización del programa"],
+    "correctAnswer": "Traducción del código fuente"
   },
   {
     "id": 74,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Qué aspecto clave debe considerarse para predecir el mantenimiento?",
-    "options": ["Inestabilidad de requerimientos", "Reducir pruebas de validación", "Incrementar capas en la arquitectura"],
-    "correctAnswer": "Inestabilidad de requerimientos"
+    "category": "Reingeniería de Software",
+    "question": "¿Cuál de las siguientes actividades implica agrupar partes relacionadas del código y eliminar redundancias?",
+    "options": ["Ingeniería inversa", "Modularización del programa", "Mantenimiento preventivo mediante refactorización"],
+    "correctAnswer": "Modularización del programa"
   },
   {
     "id": 75,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Qué técnica mejora la estructura del software para evitar problemas futuros?",
-    "options": ["Refactorización", "Traducción de código", "Reingeniería inversa"],
-    "correctAnswer": "Refactorización"
+    "category": "Reingeniería de Software",
+    "question": "¿Qué es la refactorización?",
+    "options": ["Un proceso continuo que se realiza durante el desarrollo del software para mejorar la estructura del código sin cambiar su comportamiento externo.", "Un proceso que se aplica a sistemas que ya han sido mantenidos por un tiempo y necesitan una transformación significativa.", "Un proceso de traducción del código de un lenguaje antiguo a uno moderno."],
+    "correctAnswer": "Un proceso continuo que se realiza durante el desarrollo del software para mejorar la estructura del código sin cambiar su comportamiento externo."
   },
   {
     "id": 76,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué actividad de reingeniería elimina redundancias en el código?",
-    "options": ["Modularización", "Traducción de código", "Refactorización"],
-    "correctAnswer": "Modularización"
+    "category": "Reingeniería de Software",
+    "question": "¿Qué es la reingeniería?",
+    "options": ["Un proceso continuo que se realiza durante el desarrollo del software para mejorar la estructura del código sin cambiar su comportamiento externo.", "Un proceso que se aplica a sistemas que ya han sido mantenidos por un tiempo y necesitan una transformación significativa.", "Un proceso de traducción del código de un lenguaje antiguo a uno moderno."],
+    "correctAnswer": "Un proceso que se aplica a sistemas que ya han sido mantenidos por un tiempo y necesitan una transformación significativa."
   },
   {
     "id": 77,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué actividad de reingeniería analiza un programa para entenderlo y documentarlo?",
-    "options": ["Reingeniería inversa", "Traducción de código", "Refactorización"],
-    "correctAnswer": "Reingeniería inversa"
+    "category": "Administración de Sistemas",
+    "question": "¿Cuál de las siguientes tareas NO es parte de la administración de sistemas?",
+    "options": ["Instalación y configuración de software y hardware", "Administración de redes y bases de datos", "Desarrollo de nuevas funcionalidades de software"],
+    "correctAnswer": "Desarrollo de nuevas funcionalidades de software"
   },
   {
     "id": 78,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué tipo de datos suele ajustarse durante la reingeniería de software?",
-    "options": ["Datos redundantes", "Interfaces de usuario", "Archivos temporales"],
-    "correctAnswer": "Datos redundantes"
+    "category": "Sistemas Heredados",
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor un sistema heredado?",
+    "options": ["Un sistema de software moderno con las últimas tecnologías y funcionalidades.", "Un sistema de software antiguo que sigue siendo utilizado por una organización, a pesar de estar desactualizado.", "Un sistema de software que se utiliza exclusivamente para pruebas y desarrollo."],
+    "correctAnswer": "Un sistema de software antiguo que sigue siendo utilizado por una organización, a pesar de estar desactualizado."
   },
   {
     "id": 79,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Cuál es el propósito de la modularización en la reingeniería?",
-    "options": ["Dividir el sistema en partes más manejables", "Crear nuevos componentes a partir del código existente", "Aumentar la complejidad del sistema"],
-    "correctAnswer": "Dividir el sistema en partes más manejables"
+    "category": "Sistemas Heredados",
+    "question": "¿Cuál de las siguientes opciones estratégicas implica seguir utilizando un sistema porque aún funciona bien y cumple con las necesidades de la empresa, realizando solo pequeños ajustes o reparaciones cuando es necesario?",
+    "options": ["Desechar el sistema", "Realizar ingeniería inversa", "Mantener el sistema sin cambios"],
+    "correctAnswer": "Mantener el sistema sin cambios"
   },
   {
     "id": 80,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué actividad convierte un programa escrito en un lenguaje obsoleto a uno moderno?",
-    "options": ["Traducción de código", "Refactorización", "Modularización"],
-    "correctAnswer": "Traducción de código"
+    "category": "Sistemas Heredados",
+    "question": "¿Cuál de las siguientes opciones estratégicas implica hacer mejoras a un sistema que ya tiene algunos problemas o ha envejecido, pero sigue siendo útil?",
+    "options": ["Sustituir el sistema", "Reingeniería del sistema", "Desechar el sistema"],
+    "correctAnswer": "Reingeniería del sistema"
   },
   {
     "id": 81,
-    "category": "Arquitecturas y Componentes",
-    "question": "¿Qué arquitectura se basa en pasos independientes de procesamiento de datos?",
-    "options": ["Tubería y filtro", "Arquitectura en capas", "Arquitectura de repositorio"],
-    "correctAnswer": "Tubería y filtro"
+    "category": "Sistemas Heredados",
+    "question": "¿Cuál de los siguientes factores indica que un sistema tiene un valor bajo para la empresa?",
+    "options": ["El sistema de registro en una universidad que solo se usa al principio del año, pero es crítico para inscribir a los estudiantes.", "Un software de ventas que solo permite formas de pago anticuadas y no se adapta a métodos modernos.", "Un sistema de compras en línea que se cae cada vez que hay muchas visitas, afectando las ventas."],
+    "correctAnswer": "Un software de ventas que solo permite formas de pago anticuadas y no se adapta a métodos modernos."
   },
   {
     "id": 82,
-    "category": "Arquitecturas y Componentes",
-    "question": "¿Qué elemento en la arquitectura en capas maneja la lógica de negocio?",
-    "options": ["UI", "BL", "DAL"],
-    "correctAnswer": "BL"
+    "category": "Sistemas Heredados",
+    "question": "¿Cuál de los siguientes factores podría disminuir el valor empresarial de un sistema?",
+    "options": ["El sistema se usa poco, pero es esencial para procesos críticos.", "El sistema maneja procesos antiguos o que ya no funcionan bien.", "Las salidas del sistema son importantes y se utilizan frecuentemente."],
+    "correctAnswer": "El sistema maneja procesos antiguos o que ya no funcionan bien."
   },
   {
     "id": 83,
-    "category": "Arquitecturas y Componentes",
-    "question": "¿Qué elemento define los objetos de datos utilizados en una aplicación?",
-    "options": ["Lógica de Negocios (BL)", "Entidades (ET)", "Presentación (UI)"],
-    "correctAnswer": "Entidades (ET)"
+    "category": "Sistemas Heredados",
+    "question": "¿Cuál de los siguientes factores podría dificultar el mantenimiento de la calidad de un sistema?",
+    "options": ["El sistema tiene pocas peticiones de cambio y se mantiene estable.", "El sistema maneja un volumen de datos pequeño y bien gestionado.", "El sistema ha tenido muchas peticiones de cambio para adaptarse a nuevas leyes o requisitos."],
+    "correctAnswer": "El sistema ha tenido muchas peticiones de cambio para adaptarse a nuevas leyes o requisitos."
   },
   {
     "id": 84,
-    "category": "Arquitecturas y Componentes",
-    "question": "¿Qué componente en la arquitectura de repositorio centraliza el acceso a los datos?",
-    "options": ["Base de datos", "Interfaces", "UI"],
-    "correctAnswer": "Base de datos"
+    "category": "Sistemas Heredados",
+    "question": "¿Cuál de los siguientes aspectos podría indicar problemas de consistencia en un sistema?",
+    "options": ["El sistema maneja grandes cantidades de datos, lo que aumenta la probabilidad de problemas de consistencia.", "El sistema tiene pocas interfaces de usuario, lo que facilita su mantenimiento.", "El sistema ha tenido pocas peticiones de cambio, manteniendo su estabilidad."],
+    "correctAnswer": "El sistema maneja grandes cantidades de datos, lo que aumenta la probabilidad de problemas de consistencia."
   },
   {
     "id": 85,
-    "category": "Arquitecturas y Componentes",
-    "question": "¿Qué capa interactúa directamente con la base de datos en una arquitectura en capas?",
-    "options": ["UI (Presentación)", "BL (Lógica de Negocios)", "DAL (Acceso a Datos)"],
-    "correctAnswer": "DAL (Acceso a Datos)"
-  },
-  {
-    "id": 86,
-    "category": "Pruebas de Software",
-    "question": "¿Qué tipo de prueba detecta errores específicos que ocurren bajo ciertas condiciones?",
-    "options": ["Pruebas de defectos", "Pruebas de aceptación", "Pruebas alfa"],
-    "correctAnswer": "Pruebas de defectos"
-  },
-  {
-    "id": 87,
-    "category": "Pruebas de Software",
-    "question": "¿Qué tipo de prueba garantiza que el software cumpla con las especificaciones originales?",
-    "options": ["Pruebas de validación", "Pruebas de sistema", "Pruebas beta"],
-    "correctAnswer": "Pruebas de validación"
-  },
-  {
-    "id": 88,
-    "category": "Pruebas de Software",
-    "question": "¿Qué tipo de prueba permite evaluar el software sin necesidad de conocer su diseño interno?",
-    "options": ["Caja negra", "Caja blanca", "Pruebas de usuario"],
-    "correctAnswer": "Caja negra"
-  },
-  {
-    "id": 89,
-    "category": "Pruebas de Software",
-    "question": "¿Qué nivel de prueba asegura que las diferentes partes del sistema se comuniquen correctamente?",
-    "options": ["Pruebas de componentes", "Pruebas de integración", "Pruebas de sistema"],
-    "correctAnswer": "Pruebas de integración"
-  },
-  {
-    "id": 90,
-    "category": "Pruebas de Software",
-    "question": "¿Qué tipo de prueba se enfoca en errores introducidos durante los cambios en el sistema?",
-    "options": ["Pruebas de regresión", "Pruebas beta", "Pruebas de unidad"],
-    "correctAnswer": "Pruebas de regresión"
-  },
-  {
-    "id": 91,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Qué desafío implica mantener un sistema con interfaces extensas y complejas?",
-    "options": ["Mayor probabilidad de errores", "Reducción de pruebas de sistema", "Incremento en la velocidad de desarrollo"],
-    "correctAnswer": "Mayor probabilidad de errores"
-  },
-  {
-    "id": 92,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Qué técnica implica analizar la estructura del sistema para determinar su mantenibilidad?",
-    "options": ["Reingeniería inversa", "Predicción de mantenimiento", "Modularización"],
-    "correctAnswer": "Predicción de mantenimiento"
-  },
-  {
-    "id": 93,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Qué tipo de mantenimiento aborda ajustes para garantizar compatibilidad con nuevos entornos?",
-    "options": ["Adaptativo", "Correctivo", "Perfectivo"],
-    "correctAnswer": "Adaptativo"
-  },
-  {
-    "id": 94,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Qué actividad mejora la estructura del software durante el desarrollo inicial?",
-    "options": ["Refactorización", "Traducción de código", "Inspección de software"],
-    "correctAnswer": "Refactorización"
-  },
-  {
-    "id": 95,
-    "category": "Mantenimiento y Predicción de Cambios",
-    "question": "¿Qué aspecto es esencial para reducir costos de mantenimiento?",
-    "options": ["Simplificar componentes complejos", "Incrementar capas en la arquitectura", "Eliminar pruebas de caja negra"],
-    "correctAnswer": "Simplificar componentes complejos"
-  },
-  {
-    "id": 96,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué actividad elimina redundancias y simplifica el código?",
-    "options": ["Modularización", "Refactorización", "Traducción de código"],
-    "correctAnswer": "Modularización"
-  },
-  {
-    "id": 97,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué técnica de reingeniería se enfoca en ajustar bases de datos?",
-    "options": ["Reingeniería de datos", "Modularización", "Reingeniería inversa"],
-    "correctAnswer": "Reingeniería de datos"
-  },
-  {
-    "id": 98,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué actividad convierte un sistema escrito en un lenguaje obsoleto a uno moderno?",
-    "options": ["Traducción de código", "Modularización", "Refactorización"],
-    "correctAnswer": "Traducción de código"
-  },
-  {
-    "id": 99,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué característica diferencia la refactorización de la reingeniería?",
-    "options": ["La refactorización se realiza durante el desarrollo inicial", "La refactorización transforma completamente el sistema", "La refactorización elimina datos redundantes"],
-    "correctAnswer": "La refactorización se realiza durante el desarrollo inicial"
-  },
-  {
-    "id": 100,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué caso típico requiere modularización?",
-    "options": ["Sistemas con estructuras complejas y redundantes", "Incremento en la velocidad de desarrollo", "Uso de interfaces modernas"],
-    "correctAnswer": "Sistemas con estructuras complejas y redundantes"
-  },
-  {
-    "id": 101,
-    "category": "Arquitecturas y Componentes",
-    "question": "¿Qué capa de la arquitectura en capas interactúa directamente con los usuarios?",
-    "options": ["UI", "DAL", "BL"],
-    "correctAnswer": "UI"
-  },
-  {
-    "id": 102,
-    "category": "Arquitecturas y Componentes",
-    "question": "¿Qué capa de la arquitectura en capas abstrae la lógica de acceso a datos?",
-    "options": ["BL", "DAL", "UI"],
-    "correctAnswer": "DAL"
-  },
-  {
-    "id": 103,
-    "category": "Arquitecturas y Componentes",
-    "question": "¿Qué característica principal define a la arquitectura de tubería y filtro?",
-    "options": ["Procesamiento independiente de datos en cada filtro", "Uso de repositorios centralizados", "Gestión unificada de entidades"],
-    "correctAnswer": "Procesamiento independiente de datos en cada filtro"
-  },
-  {
-    "id": 104,
-    "category": "Arquitecturas y Componentes",
-    "question": "¿Qué elemento es central en una arquitectura de repositorio?",
-    "options": ["Una base de datos compartida", "Interfaces gráficas centralizadas", "Capas lógicas separadas"],
-    "correctAnswer": "Una base de datos compartida"
-  },
-  {
-    "id": 105,
-    "category": "Arquitecturas y Componentes",
-    "question": "¿Qué ventaja principal tiene la separación de responsabilidades en una arquitectura en capas?",
-    "options": ["Mejora la mantenibilidad y escalabilidad", "Reduce los costos de pruebas", "Aumenta la complejidad del sistema"],
-    "correctAnswer": "Mejora la mantenibilidad y escalabilidad"
-  },
-  {
-    "id": 106,
-    "category": "Pruebas de Usuario",
-    "question": "¿Qué tipo de prueba implica a los usuarios en entornos reales para evaluar el sistema?",
-    "options": ["Pruebas beta", "Pruebas alfa", "Pruebas de aceptación"],
-    "correctAnswer": "Pruebas beta"
-  },
-  {
-    "id": 107,
-    "category": "Pruebas de Usuario",
-    "question": "¿Qué etapa de las pruebas de aceptación se centra en diseñar casos de prueba específicos?",
-    "options": ["Derivar pruebas", "Plan de pruebas", "Negociar resultados"],
-    "correctAnswer": "Derivar pruebas"
-  },
-  {
-    "id": 108,
-    "category": "Pruebas de Usuario",
-    "question": "¿Qué tipo de prueba de usuario ocurre durante el desarrollo del software?",
-    "options": ["Pruebas alfa", "Pruebas beta", "Pruebas de validación"],
-    "correctAnswer": "Pruebas alfa"
-  },
-  {
-    "id": 109,
-    "category": "Pruebas de Usuario",
-    "question": "¿Qué tipo de prueba de usuario implica evaluar el sistema completo por parte del cliente final?",
-    "options": ["Pruebas de aceptación", "Pruebas alfa", "Pruebas de integración"],
-    "correctAnswer": "Pruebas de aceptación"
-  },
-  {
-    "id": 110,
-    "category": "Pruebas de Usuario",
-    "question": "¿Qué etapa de pruebas de aceptación verifica si el sistema cumple con los criterios definidos?",
-    "options": ["Ejecutar pruebas", "Rechazo o aceptación", "Plan de pruebas"],
-    "correctAnswer": "Ejecutar pruebas"
-  },
-  {
-    "id": 111,
-    "category": "Pruebas de Usuario",
-    "question": "¿Qué tipo de prueba permite a los usuarios proporcionar retroalimentación durante el desarrollo?",
-    "options": ["Pruebas alfa", "Pruebas de aceptación", "Pruebas de defectos"],
-    "correctAnswer": "Pruebas alfa"
-  },
-  {
-    "id": 112,
-    "category": "Pruebas de Usuario",
-    "question": "¿Qué prueba garantiza que el cliente esté satisfecho con el producto final?",
-    "options": ["Pruebas de aceptación", "Pruebas beta", "Pruebas alfa"],
-    "correctAnswer": "Pruebas de aceptación"
-  },
-  {
-    "id": 113,
-    "category": "Pruebas de Usuario",
-    "question": "¿En qué etapa de las pruebas de aceptación se ejecutan los casos de prueba en el entorno del cliente?",
-    "options": ["Definir criterios", "Ejecutar pruebas", "Negociar resultados"],
-    "correctAnswer": "Ejecutar pruebas"
-  },
-  {
-    "id": 114,
-    "category": "Pruebas de Usuario",
-    "question": "¿Qué tipo de prueba permite detectar problemas de usabilidad antes del lanzamiento?",
-    "options": ["Pruebas beta", "Pruebas de sistema", "Pruebas de caja negra"],
-    "correctAnswer": "Pruebas beta"
-  },
-  {
-    "id": 115,
-    "category": "Pruebas de Usuario",
-    "question": "¿Qué ventaja tienen las pruebas beta sobre las pruebas alfa?",
-    "options": ["Se realizan en entornos reales de usuario", "Detectan defectos en la arquitectura del sistema", "Requieren menos participación del cliente"],
-    "correctAnswer": "Se realizan en entornos reales de usuario"
-  },
-  {
-    "id": 116,
-    "category": "Mantenimiento de Software",
-    "question": "¿Qué tipo de mantenimiento implica mejorar el rendimiento del software?",
-    "options": ["Correctivo", "Perfectivo", "Adaptativo"],
-    "correctAnswer": "Perfectivo"
-  },
-  {
-    "id": 117,
-    "category": "Mantenimiento de Software",
-    "question": "¿Qué tipo de mantenimiento se realiza cuando el software necesita ajustarse a nuevas plataformas?",
-    "options": ["Adaptativo", "Correctivo", "Perfectivo"],
-    "correctAnswer": "Adaptativo"
-  },
-  {
-    "id": 118,
-    "category": "Mantenimiento de Software",
-    "question": "¿Qué desafío surge debido a la antigüedad de un sistema?",
-    "options": ["Dificultad para encontrar personal con experiencia en su tecnología", "Incremento en la velocidad de mantenimiento", "Reducción de errores con el tiempo"],
-    "correctAnswer": "Dificultad para encontrar personal con experiencia en su tecnología"
-  },
-  {
-    "id": 119,
-    "category": "Mantenimiento de Software",
-    "question": "¿Qué técnica ayuda a reducir los costos de mantenimiento?",
-    "options": ["Ver el mantenimiento como un proceso continuo", "Reducir pruebas de validación", "Incrementar la complejidad de la arquitectura"],
-    "correctAnswer": "Ver el mantenimiento como un proceso continuo"
-  },
-  {
-    "id": 120,
-    "category": "Mantenimiento de Software",
-    "question": "¿Qué tipo de mantenimiento corrige errores descubiertos después del despliegue?",
-    "options": ["Correctivo", "Adaptativo", "Perfectivo"],
-    "correctAnswer": "Correctivo"
-  },
-  {
-    "id": 121,
-    "category": "Procesos de Reingeniería",
-    "question": "¿Qué técnica de reingeniería facilita la comprensión de sistemas antiguos?",
-    "options": ["Reingeniería inversa", "Modularización", "Traducción de código"],
-    "correctAnswer": "Reingeniería inversa"
-  },
-  {
-    "id": 122,
-    "category": "Procesos de Reingeniería",
-    "question": "¿Qué actividad de reingeniería organiza el código en módulos más manejables?",
-    "options": ["Modularización", "Refactorización", "Traducción de código"],
-    "correctAnswer": "Modularización"
-  },
-  {
-    "id": 123,
-    "category": "Procesos de Reingeniería",
-    "question": "¿Qué actividad transforma sistemas legados a lenguajes modernos?",
-    "options": ["Traducción de código", "Modularización", "Refactorización"],
-    "correctAnswer": "Traducción de código"
-  },
-  {
-    "id": 124,
-    "category": "Procesos de Reingeniería",
-    "question": "¿Qué característica distingue la reingeniería de la refactorización?",
-    "options": ["La reingeniería aborda sistemas ya mantenidos por largo tiempo", "La reingeniería simplifica pequeñas secciones del código", "La reingeniería elimina pruebas de caja negra"],
-    "correctAnswer": "La reingeniería aborda sistemas ya mantenidos por largo tiempo"
-  },
-  {
-    "id": 125,
-    "category": "Procesos de Reingeniería",
-    "question": "¿Qué caso requiere reingeniería en lugar de refactorización?",
-    "options": ["Sistemas antiguos difíciles de mantener", "Código duplicado en una sección específica", "Actualización de datos en bases existentes"],
-    "correctAnswer": "Sistemas antiguos difíciles de mantener"
-  },
-  {
-    "id": 126,
-    "category": "Arquitecturas y Diseño de Sistemas",
-    "question": "¿Qué capa maneja las reglas de negocio en una arquitectura en capas?",
-    "options": ["BL (Lógica de Negocios)", "UI (Presentación)", "DAL (Acceso a Datos)"],
-    "correctAnswer": "BL (Lógica de Negocios)"
-  },
-  {
-    "id": 127,
-    "category": "Arquitecturas y Diseño de Sistemas",
-    "question": "¿Qué arquitectura utiliza una base de datos compartida para centralizar la información?",
-    "options": ["Arquitectura de repositorio", "Arquitectura de tubería y filtro", "Arquitectura en capas"],
-    "correctAnswer": "Arquitectura de repositorio"
-  },
-  {
-    "id": 128,
-    "category": "Arquitecturas y Diseño de Sistemas",
-    "question": "¿Qué capa de la arquitectura en capas se enfoca en la interacción directa con el usuario?",
-    "options": ["UI", "BL", "DAL"],
-    "correctAnswer": "UI"
-  },
-  {
-    "id": 129,
-    "category": "Arquitecturas y Diseño de Sistemas",
-    "question": "¿Qué ventaja principal ofrece la separación de responsabilidades en arquitecturas en capas?",
-    "options": ["Mejora la mantenibilidad del sistema", "Aumenta la complejidad de la lógica", "Reduce la necesidad de pruebas de usuario"],
-    "correctAnswer": "Mejora la mantenibilidad del sistema"
-  },
-  {
-    "id": 130,
-    "category": "Arquitecturas y Diseño de Sistemas",
-    "question": "¿Qué característica es clave en la arquitectura de tubería y filtro?",
-    "options": ["Procesamiento de datos en pasos secuenciales", "Uso de bases de datos distribuidas", "Eliminación de redundancias en código"],
-    "correctAnswer": "Procesamiento de datos en pasos secuenciales"
-  },
-  {
-    "id": 131,
-    "category": "Inspección y Evaluación de Sistemas",
-    "question": "¿Qué actividad evalúa código, diseños y requisitos sin ejecutar el software?",
-    "options": ["Inspección de software", "Pruebas de caja blanca", "Refactorización"],
-    "correctAnswer": "Inspección de software"
-  },
-  {
-    "id": 132,
-    "category": "Inspección y Evaluación de Sistemas",
-    "question": "¿Qué evaluación mide la importancia de un sistema para la empresa?",
-    "options": ["Evaluación de valor empresarial", "Evaluación técnica", "Análisis de rendimiento"],
-    "correctAnswer": "Evaluación de valor empresarial"
-  },
-  {
-    "id": 133,
-    "category": "Inspección y Evaluación de Sistemas",
-    "question": "¿Qué técnica de evaluación identifica problemas en las interfaces de usuario?",
-    "options": ["Inspección de software", "Pruebas alfa", "Reingeniería inversa"],
-    "correctAnswer": "Inspección de software"
-  },
-  {
-    "id": 134,
-    "category": "Inspección y Evaluación de Sistemas",
-    "question": "¿Qué aspecto evalúa la calidad técnica de un sistema heredado?",
-    "options": ["Complejidad del sistema", "Uso de nuevas tecnologías", "Aceptación del usuario"],
-    "correctAnswer": "Complejidad del sistema"
-  },
-  {
-    "id": 135,
-    "category": "Inspección y Evaluación de Sistemas",
-    "question": "¿Qué factor no técnico puede influir en mantener un sistema heredado?",
-    "options": ["Presupuesto", "Interfaces de usuario", "Modularidad"],
-    "correctAnswer": "Presupuesto"
-  },
-  {
-    "id": 136,
-    "category": "Pruebas y Calidad del Software",
-    "question": "¿Qué prueba asegura que el sistema cumple con los requisitos especificados antes de su lanzamiento?",
-    "options": ["Pruebas de aceptación", "Pruebas beta", "Pruebas alfa"],
-    "correctAnswer": "Pruebas de aceptación"
-  },
-  {
-    "id": 137,
-    "category": "Pruebas y Calidad del Software",
-    "question": "¿Qué tipo de prueba detecta errores relacionados con la integración de módulos?",
-    "options": ["Pruebas de integración", "Pruebas de unidad", "Pruebas de sistema"],
-    "correctAnswer": "Pruebas de integración"
-  },
-  {
-    "id": 138,
-    "category": "Pruebas y Calidad del Software",
-    "question": "¿Qué tipo de prueba analiza cómo las interfaces interactúan en un sistema completo?",
-    "options": ["Pruebas de sistema", "Pruebas de componentes", "Inspección de software"],
-    "correctAnswer": "Pruebas de sistema"
-  },
-  {
-    "id": 139,
-    "category": "Pruebas y Calidad del Software",
-    "question": "¿Qué tipo de prueba se centra en evaluar la usabilidad desde la perspectiva del cliente final?",
-    "options": ["Pruebas alfa", "Pruebas beta", "Pruebas de aceptación"],
-    "correctAnswer": "Pruebas beta"
-  },
-  {
-    "id": 140,
-    "category": "Pruebas y Calidad del Software",
-    "question": "¿Qué actividad verifica que un sistema siga funcionando después de cambios o actualizaciones?",
-    "options": ["Pruebas de regresión", "Pruebas beta", "Inspección de software"],
-    "correctAnswer": "Pruebas de regresión"
-  },
-  {
-    "id": 141,
-    "category": "Mantenimiento y Evolución del Software",
-    "question": "¿Qué tipo de mantenimiento se enfoca en corregir problemas reportados por los usuarios?",
-    "options": ["Correctivo", "Adaptativo", "Perfectivo"],
-    "correctAnswer": "Correctivo"
-  },
-  {
-    "id": 142,
-    "category": "Mantenimiento y Evolución del Software",
-    "question": "¿Qué estrategia de mantenimiento implica reestructurar componentes complejos?",
-    "options": ["Refactorización", "Modularización", "Reingeniería de datos"],
-    "correctAnswer": "Refactorización"
-  },
-  {
-    "id": 143,
-    "category": "Mantenimiento y Evolución del Software",
-    "question": "¿Qué técnica de predicción permite anticipar cambios futuros en sistemas heredados?",
-    "options": ["Predicción de mantenimiento", "Inspección de software", "Evaluación de calidad técnica"],
-    "correctAnswer": "Predicción de mantenimiento"
-  },
-  {
-    "id": 144,
-    "category": "Mantenimiento y Evolución del Software",
-    "question": "¿Qué desafío surge cuando los equipos originales ya no están disponibles para mantener un sistema?",
-    "options": ["Estabilidad del equipo", "Costos de integración", "Complejidad del sistema"],
-    "correctAnswer": "Estabilidad del equipo"
-  },
-  {
-    "id": 145,
-    "category": "Mantenimiento y Evolución del Software",
-    "question": "¿Qué factor técnico aumenta la dificultad del mantenimiento en sistemas heredados?",
-    "options": ["Complejidad del sistema", "Evaluación de valor empresarial", "Modularidad"],
-    "correctAnswer": "Complejidad del sistema"
-  },
-  {
-    "id": 146,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué técnica de reingeniería mejora bases de datos para adaptarse a nuevas estructuras?",
-    "options": ["Reingeniería de datos", "Modularización", "Traducción de código"],
-    "correctAnswer": "Reingeniería de datos"
-  },
-  {
-    "id": 147,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué actividad reorganiza el sistema para facilitar futuras modificaciones?",
-    "options": ["Modularización", "Traducción de código", "Refactorización"],
-    "correctAnswer": "Modularización"
-  },
-  {
-    "id": 148,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué tipo de código suele ser priorizado para refactorización?",
-    "options": ["Código duplicado y mal estructurado", "Código en lenguajes modernos", "Código con alta modularidad"],
-    "correctAnswer": "Código duplicado y mal estructurado"
-  },
-  {
-    "id": 149,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué caso justifica realizar una reingeniería en lugar de una simple refactorización?",
-    "options": ["Un sistema obsoleto con problemas complejos", "Código con defectos menores", "Agregar nuevos módulos a un sistema existente"],
-    "correctAnswer": "Un sistema obsoleto con problemas complejos"
-  },
-  {
-    "id": 150,
-    "category": "Reingeniería y Refactorización",
-    "question": "¿Qué proceso convierte un sistema antiguo en una solución moderna y eficiente?",
-    "options": ["Reingeniería", "Refactorización", "Inspección de software"],
-    "correctAnswer": "Reingeniería"
+    "category": "Sistemas Heredados",
+    "question": "¿Cuál de los siguientes aspectos podría influir en la decisión de mantener o reemplazar un sistema heredado por razones no técnicas?",
+    "options": ["La cantidad de interfaces de usuario del sistema.", "La cantidad de datos que maneja el sistema.", "Las cuestiones políticas o de presupuesto dentro de la organización."],
+    "correctAnswer": "Las cuestiones políticas o de presupuesto dentro de la organización."
   }
 ]
